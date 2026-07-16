@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: #800000;
+  --color-gold: #D4AF37;
+  --color-cream: #FFFDF5;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-gray-900;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.maroon-gradient {
+  background: linear-gradient(135deg, #800000 0%, #4a0000 100%);
+}
+
+.gold-text {
+  background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
