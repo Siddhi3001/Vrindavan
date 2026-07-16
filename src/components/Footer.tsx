@@ -66,6 +66,19 @@ const Footer = () => {
           </div>
         </div>
 
+        <div className="pt-6 text-center text-sm text-white/80">
+          <span className="block mb-2">Developed by <a href="https://github.com/Siddhi3001" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Siddhi</a></span>
+          <div className="flex items-center justify-center gap-3 text-xs">
+            <a href="https://github.com/Siddhi3001/Vrindavan" target="_blank" rel="noopener noreferrer" className="hover:text-gold">GitHub</a>
+            <span className="text-white/30">•</span>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-gold">LinkedIn</a>
+            <span className="text-white/30">•</span>
+            <a href="https://siddhi-demo.example.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold">Live demo</a>
+            <span className="text-white/30">•</span>
+            <a href="mailto:hello@example.com" className="hover:text-gold">hello@example.com</a>
+          </div>
+        </div>
+
         <div className="border-t border-white/10 pt-8 text-center text-[10px] text-white/40 uppercase tracking-[0.3em]">
           &copy; {year} Vrindavan Garden. {t('footer.rights')}
         </div>
