@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="pt-6 text-center text-sm text-white/80">
           <span className="block mb-2">Developed by <a href="https://github.com/Siddhi3001" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Siddhi</a></span>
           <div className="flex items-center justify-center gap-3 text-xs">
-            <a href="https://github.com/Siddhi3001/Vrindavan" target="_blank" rel="noopener noreferrer" className="hover:text-gold">GitHub</a>
+            <a href="https://github.com/Siddhi3001" target="_blank" rel="noopener noreferrer" className="hover:text-gold">GitHub</a>
             <span className="text-white/30">•</span>
             <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="hover:text-gold">LinkedIn</a>
             <span className="text-white/30">•</span>
