@@ -27,13 +27,12 @@ const MapSection = () => {
             width="100%"
             height="100%"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             title={t('location.title')}
           ></iframe>
         </div>
-
         {/* Map Info */}
         <div className="lg:col-span-1 bg-maroon p-8 text-white flex flex-col justify-center gap-8">
           <div>

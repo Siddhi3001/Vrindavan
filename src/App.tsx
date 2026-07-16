@@ -20,7 +20,6 @@ import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Packages from './pages/Packages';
 import Contact from './pages/Contact';
-import Location from './pages/Location';
 import Blog from './pages/Blog';
 
 // Scroll to top on route change

@@ -12,27 +12,29 @@ import { useLanguage } from '../context/LanguageContext';
 import { 
   Flower2, Layout, Home, Coffee, Wind, Car, 
   ArrowUp, Video, Volume2, Lightbulb, Shield, Zap,
-  Briefcase, UserCheck
+  Briefcase, UserCheck, type LucideIcon
 } from 'lucide-react';
+
+type ServiceIcon = LucideIcon;
 
 const Services = () => {
   const { t } = useLanguage();
 
-  const services = [
-    { id: 'floral', icon: <Flower2 /> },
-    { id: 'theme', icon: <Layout /> },
-    { id: 'bridal', icon: <Home /> },
-    { id: 'dining', icon: <Coffee /> },
-    { id: 'ac', icon: <Wind /> },
-    { id: 'parking', icon: <Car /> },
-    { id: 'lift', icon: <ArrowUp /> },
-    { id: 'cctv', icon: <Shield /> },
-    { id: 'sound', icon: <Volume2 /> },
-    { id: 'lighting', icon: <Lightbulb /> },
-    { id: 'generator', icon: <Zap /> },
-    { id: 'coordination', icon: <Briefcase /> },
-    { id: 'valet', icon: <UserCheck /> },
-    { id: 'photo', icon: <Video /> }
+  const services: { id: string; icon: ServiceIcon }[] = [
+    { id: 'floral', icon: Flower2 },
+    { id: 'theme', icon: Layout },
+    { id: 'bridal', icon: Home },
+    { id: 'dining', icon: Coffee },
+    { id: 'ac', icon: Wind },
+    { id: 'parking', icon: Car },
+    { id: 'lift', icon: ArrowUp },
+    { id: 'cctv', icon: Shield },
+    { id: 'sound', icon: Volume2 },
+    { id: 'lighting', icon: Lightbulb },
+    { id: 'generator', icon: Zap },
+    { id: 'coordination', icon: Briefcase },
+    { id: 'valet', icon: UserCheck },
+    { id: 'photo', icon: Video }
   ];
 
   return (
@@ -73,7 +75,7 @@ const Services = () => {
                 <div className="absolute -right-4 -top-4 w-24 h-24 bg-gold/5 rounded-full group-hover:scale-[3] transition-transform duration-700 pointer-events-none"></div>
                 
                 <div className="size-20 bg-cream text-maroon rounded-2xl flex items-center justify-center mb-8 group-hover:bg-maroon group-hover:text-white transition-all duration-500 shadow-md group-hover:shadow-xl rotate-3 group-hover:rotate-0">
-                  {React.cloneElement(service.icon as React.ReactElement, { size: 40, strokeWidth: 1.5 })}
+                  <service.icon size={40} strokeWidth={1.5} />
                 </div>
                 
                 <h3 className="text-maroon font-serif text-xl mb-4 text-center group-hover:text-gold transition-colors">

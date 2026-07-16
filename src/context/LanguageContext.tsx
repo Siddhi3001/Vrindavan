@@ -5,27 +5,32 @@ Editable Sections: None
 Dependencies: React
 */
 
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { translations } from '../data/translations';
 
-const LanguageContext = createContext();
+type LanguageContextType = {
+  language: string;
+  setLanguage: React.Dispatch<React.SetStateAction<string>>;
+  t: (path: string) => any;
+};
 
-export const LanguageProvider = ({ children }) => {
-  // Default language is Marathi ('mr')
-  const [language, setLanguage] = useState(localStorage.getItem('language') || 'mr');
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+
+export const LanguageProvider = ({ children }: { children: ReactNode }) => {
+  const [language, setLanguage] = useState<string>(localStorage.getItem('language') || 'mr');
 
   useEffect(() => {
     localStorage.setItem('language', language);
   }, [language]);
 
-  const t = (path) => {
+  const t = (path: string) => {
     const keys = path.split('.');
-    let result = translations[language];
+    let result: any = translations[language];
     for (const key of keys) {
       if (result[key]) {
         result = result[key];
       } else {
-        return path; // Return path if not found
+        return path;
       }
     }
     return result;
@@ -38,4 +43,10 @@ export const LanguageProvider = ({ children }) => {
   );
 };
 
-export const useLanguage = () => useContext(LanguageContext);
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+};
