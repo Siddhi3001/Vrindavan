@@ -14,8 +14,8 @@ import hall3 from '../assets/images/hall9.jpeg';
 import hall4 from '../assets/images/hall4.jpeg';
 import hall8 from '../assets/images/hall8.jpeg';
 import { 
-  Flower2, Layout, Home, Coffee, Wind, Car, 
-  ArrowUp, Video, Volume2, Lightbulb, Shield, Zap,
+  Flower2, Layout, Home, Coffee, Car, 
+   Video, Volume2, Lightbulb, Shield, Zap,
   Briefcase, UserCheck, type LucideIcon
 } from 'lucide-react';
 
@@ -30,9 +30,7 @@ const Services = () => {
     { id: 'theme', icon: Layout },
     { id: 'bridal', icon: Home },
     { id: 'dining', icon: Coffee },
-    { id: 'ac', icon: Wind },
     { id: 'parking', icon: Car },
-    { id: 'lift', icon: ArrowUp },
     { id: 'cctv', icon: Shield },
     { id: 'sound', icon: Volume2 },
     { id: 'lighting', icon: Lightbulb },
@@ -51,7 +49,7 @@ const Services = () => {
           animate={{ opacity: 1, scale: 1 }}
           className="container mx-auto relative z-10"
         >
-          <span className="text-gold uppercase tracking-[0.3em] text-sm font-bold mb-4 block">Our Facilities</span>
+          <span className="text-gold uppercase tracking-[0.3em] text-sm font-bold mb-4 block"></span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-8 drop-shadow-lg">{t('services.title')}</h1>
           <div className="w-24 h-1 bg-gold mx-auto mb-8"></div>
           <p className="text-gray-200 text-lg md:text-xl font-light italic max-w-3xl mx-auto leading-relaxed">
@@ -104,7 +102,7 @@ const Services = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center gap-20">
             <div className="lg:w-1/2">
-              <span className="text-gold font-bold uppercase tracking-widest text-xs mb-4 block">Quality & Standards</span>
+              <span className="text-gold font-bold uppercase tracking-widest text-xs mb-4 block"></span>
               <h2 className="text-maroon font-serif text-4xl md:text-5xl lg:text-6xl mb-10 leading-tight">
                 {t('services.unmatched')}
               </h2>

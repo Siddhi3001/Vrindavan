@@ -91,7 +91,7 @@ const Footer = () => {
     <span className="text-white/30">•</span>
 
     <a
-      href="YOUR_LINKEDIN_PROFILE_URL"
+      href="https://www.linkedin.com/in/siddhi-labade-916766292"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-gold"
@@ -100,23 +100,11 @@ const Footer = () => {
     </a>
 
     <span className="text-white/30">•</span>
-
-    <a
-      href="YOUR_VERCEL_LIVE_WEBSITE_URL"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-gold"
-    >
-      Live Demo
-    </a>
-
-    <span className="text-white/30">•</span>
-
     <a
       href="mailto:YOUR_EMAIL_ADDRESS"
       className="hover:text-gold"
     >
-      YOUR_EMAIL_ADDRESS
+      siddhirlabade30@gmail.com
     </a>
   </div>
 </div>

@@ -7,6 +7,8 @@ Dependencies: Components, motion, LanguageContext, lucide-react
 
 import React from 'react';
 import { motion } from 'motion/react';
+import dada from '../assets/images/dada.jpeg';
+
 import { useLanguage } from '../context/LanguageContext';
 import MapSection from '../components/MapSection';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
@@ -58,7 +60,7 @@ const Contact = () => {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} className="bg-white p-8 md:p-12 shadow-xl border-b-8 border-maroon">
               <div className="flex flex-col md:flex-row gap-10 items-center">
                 <div className="w-32 h-32 md:w-48 md:h-48 rounded-full bg-cream p-1 border-2 border-gold flex-shrink-0 overflow-hidden">
-                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=400" className="w-full h-full object-cover rounded-full" alt="Owner" />
+                  <img src={dada} className="w-full h-full object-cover rounded-full" alt="Owner" />
                 </div>
                 <div className="flex-grow">
                   <h2 className="text-maroon font-serif text-3xl mb-1">{t('contact.owner.name')}</h2>

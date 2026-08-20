@@ -395,6 +395,7 @@ export const translations = {
       }
     },
     services: {
+      
       title: "Our Premium Services",
       subtitle: "Experience world-class hospitality with every amenity designed for your comfort.",
       list: {

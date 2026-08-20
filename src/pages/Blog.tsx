@@ -31,14 +31,14 @@ const Blog = () => {
   const playerRef = useRef<HTMLDivElement>(null);
 
   const [videos, setVideos] = useState([
-    {id: 1 , title : 'Hall Walkthrough' , url:video9, thumbnail : hall4},
-    {id: 1, title: 'Hall Walkthrough', url:video7 , thumbnail: hall4},
-    {id: 2, title: 'Hall Walkthrough', url:video3 , thumbnail: hall3},
-    {id: 3, title: 'Hall Walkthrough', url:video4 , thumbnail: logo},
-    {id: 4, title : 'Hall Walkthrough', url:video6, thumbnail:hall12},
-    { id: 5, title: 'Hall Walkthrough', url: video1 ,thumbnail: hall19},
-    { id: 6, title: 'Hall Walkthrough', url:video2 , thumbnail: hall8 },
-    {id:7 ,title: 'Hall Walkthrough',url:video8,thumbnail:rudra}
+    {id: 1 , url:video9, thumbnail : hall4},
+    {id: 1, url:video7 , thumbnail: hall4},
+    {id: 2,  url:video3 , thumbnail: hall3},
+    {id: 3 ,url:video4 , thumbnail: logo},
+    {id: 4,  url:video6, thumbnail:hall12},
+    { id: 5, url: video1 ,thumbnail: hall19},
+    { id: 6, url:video2 , thumbnail: hall8 },
+    {id:7 ,url:video8,thumbnail:rudra}
     
   ]);
   const [isUploading, setIsUploading] = useState(false);
