@@ -9,11 +9,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
+import HB5 from '../assets/images/HB5.jpeg';
+import hall3 from '../assets/images/hall9.jpeg';
+import hall4 from '../assets/images/hall4.jpeg';
+import hall8 from '../assets/images/hall8.jpeg';
 import { 
   Flower2, Layout, Home, Coffee, Wind, Car, 
   ArrowUp, Video, Volume2, Lightbulb, Shield, Zap,
   Briefcase, UserCheck, type LucideIcon
 } from 'lucide-react';
+
 
 type ServiceIcon = LucideIcon;
 
@@ -148,25 +153,27 @@ const Services = () => {
               <div className="grid grid-cols-2 gap-6">
                 <motion.img 
                   whileHover={{ scale: 1.05 }}
-                  src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800" 
+                  src={hall3} 
                   className="w-full h-64 object-cover rounded-2xl shadow-xl z-10" 
                   alt="Hall" 
                 />
                 <motion.img 
                   whileHover={{ scale: 1.05 }}
-                  src="https://images.unsplash.com/photo-1544124499-58912cbddaad?auto=format&fit=crop&q=80&w=800" 
+                  src={hall8} 
+                  className="w-full h-64 object-cover rounded-2xl shadow-xl -mt-12 z-20" 
+                  alt="Decor"
                   className="w-full h-64 object-cover rounded-2xl shadow-xl mt-12 z-0" 
                   alt="Decor" 
                 />
                 <motion.img 
                   whileHover={{ scale: 1.05 }}
-                  src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=800" 
+                  src={hall4} 
                   className="w-full h-64 object-cover rounded-2xl shadow-xl -mt-12 z-0" 
                   alt="Stage" 
                 />
                 <motion.img 
                   whileHover={{ scale: 1.05 }}
-                  src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&q=80&w=800" 
+                  src={HB5} 
                   className="w-full h-64 object-cover rounded-2xl shadow-xl mt-4 z-10" 
                   alt="Service" 
                 />
