@@ -192,7 +192,7 @@ export const translations = {
         facilities: "सुविधा"
       },
       responses: {
-        capacity: "आमच्या हॉलमध्ये ५०० ते १२०० पाहुणे सामावू शकतात.",
+        capacity: "आमच्या हॉलमध्ये १५००+ पाहुणे सामावू शकतात.",
         parking: "आमच्याकडे २००+ वाहनांसाठी प्रशस्त पार्किंग व्यवस्था आहे.",
         hours: "आम्ही दररोज सकाळी ९:०० ते रात्री १०:०० पर्यंत उपलब्ध आहोत.",
         location: "आम्ही सेंट्रल मार्केट जवळ, स्टेशन रोड, पुणे येथे आहोत.",
@@ -466,7 +466,7 @@ export const translations = {
         facilities: "Facilities"
       },
       responses: {
-        capacity: "Our hall can accommodate 500 to 1200 guests.",
+        capacity: "Our hall can accommodate 1500+ guests.",
         parking: "We have dedicated parking for over 200 vehicles.",
         hours: "We are open daily from 9:00 AM to 10:00 PM.",
         location: "We are located near Central Market, Station Road, Pune.",
@@ -738,7 +738,7 @@ export const translations = {
         facilities: "सुविधाएं"
       },
       responses: {
-        capacity: "हमारे हॉल में 500 से 1200 मेहमान आ सकते हैं.",
+        capacity: "हमारे हॉल में 1500+ मेहमान आ सकते हैं.",
         parking: "हमारे पास 200+ वाहनों के लिए विस्तृत पार्किंग व्यवस्था है.",
         hours: "हम प्रतिदिन सुबह 9:00 बजे से रात 10:00 बजे तक उपलब्ध हैं.",
         location: "हम सेंट्रल मार्केट के पास, स्टेशन रोड, पुणे में स्थित हैं.",
