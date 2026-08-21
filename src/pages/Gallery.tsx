@@ -14,7 +14,7 @@ import HB5 from '../assets/images/HB5.jpeg';
 import hall3 from '../assets/images/hall3.jpeg';
 import hall4 from '../assets/images/hall4.jpeg';
 import hall8 from '../assets/images/hall8.jpeg';
-//import hall15 from '../assets/images/hall15.jpeg';
+import Hall15 from '../assets/images/Hall15.jpeg';
 import hall9 from '../assets/images/hall9.jpeg';
 import hall13 from '../assets/images/Hall13.jpeg';
 import hall14 from '../assets/images/Hall14.jpeg';
@@ -52,11 +52,11 @@ id: 4,
 url: hall8,
 title: 'Event Celebration',
 },
-// {
-// id: 5,
-// url: hall15,
-// title: 'Open Area',
-// },
+{
+id: 5,
+url: Hall15,
+title: 'Open Area',
+},
 {
 id: 6,
 url: hall9,
