@@ -77,9 +77,9 @@ export const translations = {
         }
       ],
       stats: {
-        experience: "१+ वर्षे अनुभव",
+        experience: "२+ वर्षे अनुभव",
         events: "५०+ कार्यक्रम",
-        guests: "१०,०००+ पाहुणे",
+        guests: "१,००,०००+ पाहुणे",
         corporate: "५+ कॉर्पोरेट उत्सव"
       }
     },
@@ -157,7 +157,7 @@ export const translations = {
         photo: "सर्वोत्कृष्ट फोटोग्राफर्स आणि सिनेमॅटोग्राफर्स कडून तुमच्या अविस्मरणीय क्षणांचे जतन."
       },
       unmatched: "अतुलनीय सुविधा",
-      capacity: "५००-१२०० पाहुण्यांची क्षमता",
+      capacity: "१५००+ पाहुण्यांची क्षमता",
       capacityDesc: "लहान आणि मोठ्या अशा दोन्ही कार्यक्रमांसाठी लवचिक जागा व्यवस्थापन.",
       diningArea: "स्वतंत्र जेवण क्षेत्र",
       diningAreaDesc: "केटरिंग और बुफे सेटअप के लिए समर्पित विशाल हॉल.",
@@ -352,7 +352,7 @@ export const translations = {
       stats: {
         experience: "1+ Years Experience",
         events: "50+ Events",
-        guests: "10,000+ Guests",
+        guests: "1,00,000+ Guests",
         corporate: "5+ Corporate Celebrations"
       }
     },
@@ -431,7 +431,7 @@ export const translations = {
         photo: "Partnered assistance for high-quality photography and cinematography to capture every moment."
       },
       unmatched: "Unmatched Facilities",
-      capacity: "500–1200 Guests Capacity",
+      capacity: "1500+ Guests Capacity",
       capacityDesc: "Flexible space management for both intimate and grand gatherings.",
       diningArea: "Separate Dining Area",
       diningAreaDesc: "Dedicated spacious hall for catering and buffet setups.",
@@ -625,7 +625,7 @@ export const translations = {
       stats: {
         experience: "1+ वर्ष का अनुभव",
         events: "50+ कार्यक्रम",
-        guests: "10,000+ अतिथि",
+        guests: "1,00,000+ अतिथि",
         corporate: "5+ कॉर्पोरेट उत्सव"
       }
     },
@@ -703,7 +703,7 @@ export const translations = {
         photo: "आपके अविस्मरणीय पलों को सहेजने के लिए बेहतरीन फोटोग्राफर्स द्वारा सहायता।"
       },
       unmatched: "अतुलनीय सुविधाएं",
-      capacity: "500-1200 मेहमानों की क्षमता",
+      capacity: "1500+ मेहमानों की क्षमता",
       capacityDesc: "छोटे और बड़े दोनों आयोजनों के लिए लचीले स्थान प्रबंधन।",
       diningArea: "अलग भोजन क्षेत्र",
       diningAreaDesc: "केटरिंग और बुफे सेटअप के लिए समर्पित विशाल हॉल।",

@@ -36,9 +36,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { label: t('home.stats.experience'), value: "1+", icon: <Calendar /> },
+    { label: t('home.stats.experience'), value: "2+", icon: <Calendar /> },
     { label: t('home.stats.events'), value: "50+", icon: <Award /> },
-    { label: t('home.stats.guests'), value: "10k+", icon: <Users /> },
+    { label: t('home.stats.guests'), value: "100k+", icon: <Users /> },
     { label: t('home.stats.corporate'), value: "5+", icon: <Star /> }
   ];
 
