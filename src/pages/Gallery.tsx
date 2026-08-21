@@ -16,7 +16,9 @@ import hall4 from '../assets/images/hall4.jpeg';
 import hall8 from '../assets/images/hall8.jpeg';
 import hall12 from '../assets/images/hall12.jpeg';
 import hall19 from '../assets/images/hall19.jpeg';
-import rudra from '../assets/images/rudra puja.jpeg';
+import hall13 from '../assets/images/Hall13.jpeg';
+import hall14 from '../assets/images/Hall14.jpeg';
+
 
 type GalleryImage = {
 id: number;
@@ -62,9 +64,14 @@ title: 'Grand Hall',
 },
 {
 id: 7,
-url: rudra,
-title: 'Rudra Puja',
+url: hall13,
+title: 'Hall 13',
 },
+{
+id: 8,
+url: hall14,
+title: 'Hall 14',
+}
 ];
 
 const [selectedImg, setSelectedImg] =

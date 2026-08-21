@@ -5,7 +5,7 @@ Editable Sections: Contact details and FAQ questions
 Dependencies: Components, motion, LanguageContext, lucide-react
 */
 
-import React from 'react';
+
 import { motion } from 'motion/react';
 import dada from '../assets/images/dada.jpeg';
 

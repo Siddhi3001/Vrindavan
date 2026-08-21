@@ -134,7 +134,7 @@ const Blog = () => {
                   </div>
                   <div className="p-4 flex justify-between items-center bg-white">
                     <p className="font-bold text-maroon uppercase tracking-wider text-[10px]">{video.title}</p>
-                    <button onClick={() => removeVideo(video.id)} className="text-red-400 hover:text-red-600">
+                    <button onClick={() => removeVideo(video.id)} className="text-gray-400 hover:text-maroon">
                         <Trash2 size={14} />
                     </button>
                   </div>
