@@ -274,7 +274,7 @@ export const translations = {
       highlights: {
         nature: "निसर्गरम्य वातावरण",
         ventilation: "उत्तम वेंटिलेशन",
-        capacity: "५००+ पाहुण्यांची सोय",
+        capacity: "१५००+ पाहुण्यांची सोय",
         stage: "विशाल स्टेज"
       }
     }
@@ -307,7 +307,7 @@ export const translations = {
       brandPart0: "Explore The",
       brandPart1: "Vrindavan",
       brandPart2: "Garden",
-      fullAddress: "Savadi phata, Korti-Parewadi road,Savadi, Karmala,Solapur 413203 ",
+      fullAddress: "Sawadi phata, Korti-Parewadi road,Savadi, Karmala,Solapur 413203 ",
       phoneValue: "+91 9822149177",
       emailValue: "vrindavangarden@gmail.com",
       hoursValue: "Mon-Sun: 9AM - 10PM"
@@ -548,7 +548,7 @@ export const translations = {
       highlights: {
         nature: "Scenic Environment",
         ventilation: "Excellent Ventilation",
-        capacity: "500+ Guest Capacity",
+        capacity: "1500+ Guest Capacity",
         stage: "Grand Stage"
       }
     }
@@ -820,7 +820,7 @@ export const translations = {
       highlights: {
         nature: "प्राकृतिक वातावरण",
         ventilation: "उत्कृष्ट वेंटिलेशन",
-        capacity: "500+ अतिथियों की क्षमता",
+        capacity: "1500+ अतिथियों की क्षमता",
         stage: "भव्य स्टेज"
       }
     }

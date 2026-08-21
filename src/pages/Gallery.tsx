@@ -18,6 +18,7 @@ import Hall15 from '../assets/images/Hall15.jpeg';
 import hall9 from '../assets/images/hall9.jpeg';
 import hall13 from '../assets/images/Hall13.jpeg';
 import hall14 from '../assets/images/Hall14.jpeg';
+import hall17 from '../assets/images/hall17.jpeg';
 
 
 type GalleryImage = {
@@ -71,6 +72,11 @@ title: 'Hall 13',
 id: 8,
 url: hall14,
 title: 'Hall 14',
+},
+{
+id: 9,
+url: hall17,
+title: 'Hall 17',
 }
 ];
 
